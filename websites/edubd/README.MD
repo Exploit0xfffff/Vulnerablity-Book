@@ -2,7 +2,7 @@
 
 I embarked on exploring the juc.edu.bd website, adhering to the guidelines set by my instructor for a vulnerability assessment task. My first step involved conducting a WHOIS lookup to ascertain the website's origins.
 
-![Whois](websites/edubd/img/image.png)
+![Whois](img/image.png)
 
 Upon discovering that this is a Bangladeshi website, I delved into researching information-oriented aspects like domain validation, which is valid up until January 16, 2024.
 
