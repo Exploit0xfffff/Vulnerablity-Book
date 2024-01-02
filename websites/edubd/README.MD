@@ -2,30 +2,30 @@
 
 I embarked on exploring the juc.edu.bd website, adhering to the guidelines set by my instructor for a vulnerability assessment task. My first step involved conducting a WHOIS lookup to ascertain the website's origins.
 
-![Whois](img/image.png)
+![Whois](websites/edubd/img/image.png)
 
 Upon discovering that this is a Bangladeshi website, I delved into researching information-oriented aspects like domain validation, which is valid up until January 16, 2024.
 
-![Domain Validation Information](img/image-1.png)
+![Domain Validation Information](websites/edubd/img/image-1.png)
 
 Further research using Wappalyzer revealed that the website is built using PHP.
 
-![PHP Usage Details](img/image-2.png)
+![PHP Usage Details](websites/edubd/img/image-2.png)
 
 Examining the website thoroughly, I focused on the login page. Utilizing SQLMap, I identified several vulnerabilities.
 
 
-![Vulnerability 1](img/image-3.png)
+![Vulnerability 1](websites/edubd/img/image-3.png)
 
-![Vulnerability 2](img/image-4.png)
+![Vulnerability 2](websites/edubd/img/image-4.png)
 
 After further research, my curiosity led me to a file named `results-01022024_0740am.csv`. In this file, I found a target link.
 
-![Target](img/target.png)
+![Target](websites/edubd/img/target.png)
 
 Upon opening this link, I was directed to a specific webpage.
 
-![Website](img/website.png)
+![Website](websites/edubd/img/website.png)
 
 Suspecting the presence of a database service, I conducted research using SQL. The command I used was:
 
@@ -35,11 +35,11 @@ python3 sqlmap.py https://www.juc.edu.bd/page.php?id=1,GET,id,BTU --dbs
 
 This led me to discover the parameter-related vulnerabilities in the assignment.
 
-![dbs1](img/dbs.png)
+![dbs1](websites/edubd/img/dbs.png)
 
-![dbs2](img/dbs2.png)
+![dbs2](websites/edubd/img/dbs2.png)
 
-![dbs3](img/dbs3.png)
+![dbs3](websites/edubd/img/dbs3.png)
 
 Although we have fetched data, we will not misuse it. Now, let's discuss how we can remedy this SQL injection and enhance the security of this website.
 
