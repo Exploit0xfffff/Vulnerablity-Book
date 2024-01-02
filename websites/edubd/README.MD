@@ -2,29 +2,29 @@
 
 I embarked on exploring the juc.edu.bd website, adhering to the guidelines set by my instructor for a vulnerability assessment task. My initial step was to conduct a WHOIS lookup to ascertain the website's origins.
 
-🔍 ![Whois](img/image.png)
+🔍 ![Whois](img/image.jpeg)
 
 Upon discovering that this is a Bangladeshi website, I researched information-oriented aspects such as domain validation, which is valid until January 16, 2024.
 
-📆 ![Domain Validation Information](img/image-1.png)
+📆 ![Domain Validation Information](img/image-1.jpeg)
 
 Further investigation using Wappalyzer revealed that the website is built using PHP.
 
-💻 ![PHP Usage Details](img/image-2.png)
+💻 ![PHP Usage Details](img/image-2.jpeg)
 
 After thoroughly examining the website, I focused on the login page. By utilizing SQLMap, I identified several vulnerabilities.
 
-🔓 ![Vulnerability 1](img/image-3.png)
+🔓 ![Vulnerability 1](img/image-3.jpeg)
 
-🔓 ![Vulnerability 2](img/image-4.png)
+🔓 ![Vulnerability 2](img/image-4.jpeg)
 
 Subsequent research led me to a file named `results-01022024_0740am.csv`. This file contained a target link.
 
-🎯 ![Target](img/target.png)
+🎯 ![Target](img/target.jpeg)
 
 Upon opening this link, I was directed to a specific webpage.
 
-🌐 ![Website](img/website.png)
+🌐 ![Website](img/website.jpeg)
 
 With suspicions of a database service, I conducted research using SQL. The command I used was:
 
@@ -34,11 +34,11 @@ python3 sqlmap.py https://www.juc.edu.bd/page.php?id=1,GET,id,BTU --dbs
 
 This command helped me uncover parameter-related vulnerabilities.
 
-💡 ![dbs1](img/dbs.png)
+💡 ![dbs1](img/dbs.jpeg)
 
-💡 ![dbs2](img/dbs2.png)
+💡 ![dbs2](img/dbs2.jpeg)
 
-💡 ![dbs3](img/dbs3.png)
+💡 ![dbs3](img/dbs3.jpeg)
 
 Although we have retrieved data, we will not misuse it. Now, let's discuss how to remedy this SQL injection and enhance the website's security.
 
