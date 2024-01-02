@@ -71,4 +71,4 @@ Although we have retrieved data, we will not misuse it. Now, let's discuss how t
 
 7. **Cyber City:**
    - 🏙 Discuss this vulnerability to prevent it in future iterations of the Cyber City website.
-   - 👨‍💻 Cyber City will assume responsibility for fixing this vulnerability going forward.
+   - 👨‍💻 Cyber City will come soon.
