@@ -20,7 +20,7 @@ After thoroughly examining the website, I focused on the login page. By utilizin
 
 Subsequent research led me to a file named `results-01022024_0740am.csv`. This file contained a target link.
 
-🎯 ![Target](img/target.jpeg)
+🎯 ![Target](img/targeturl.jpeg)
 
 Upon opening this link, I was directed to a specific webpage.
 
