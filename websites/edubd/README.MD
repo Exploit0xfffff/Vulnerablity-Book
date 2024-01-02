@@ -6,7 +6,7 @@ I embarked on exploring the juc.edu.bd website, adhering to the guidelines set b
 
 Upon discovering that this is a Bangladeshi website, I delved into researching information-oriented aspects like domain validation, which is valid up until January 16, 2024.
 
-![Domain Validation Information](websites/edubd/img/image-1.png)
+![Domain Validation Information](img/image-1.png)
 
 Further research using Wappalyzer revealed that the website is built using PHP.
 
