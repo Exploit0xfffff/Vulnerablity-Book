@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/8c1070f8-2879-4349-9cbd-f5bac6976c44)# VRV Security Vulnerability Analysis
+# VRV Security Vulnerability Analysis
 
 This README outlines the step-by-step approach used to analyze the security vulnerabilities of the `vrvsecurity.in` website and the tools utilized in the process. Additionally, it highlights the findings and the direction for developing custom tools to enhance security research.
 
