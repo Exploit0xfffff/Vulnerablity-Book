@@ -56,8 +56,5 @@ This README outlines the step-by-step approach used to analyze the security vuln
   ```bash
   nmap -p- -sV <IPv4 Address>
   ```
-
-## Future Work
-
-- Enhance the analysis process by integrating machine learning models to predict potential vulnerabilities.
-- Collaborate with the community to share insights and improve detection mechanisms.
+# the scam website decision 
+this is scam website concluded through https://vrvsecurity.in/#privacy-policy https://vrvsecurity.in/#terms-of-service https://vrvsecurity.in/#cookies-settings
